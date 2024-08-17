@@ -1,0 +1,26 @@
+td{
+	border: 1px solid #BBBBBB;
+	text-align: center;
+	background-color:#ad8484;
+    color:rgb(255, 234, 0);
+}
+th{
+    background-color:white;
+}
+td:hover{
+	background-color: blueviolet;
+}
+th.top{
+	text-align: center;
+}
+th.lhs,th.top{
+    background-color: rgb(23, 23, 223);
+}
+
+th.corner{
+	text-align: right;
+    background-color: black;
+    color: white;
+}
+
+

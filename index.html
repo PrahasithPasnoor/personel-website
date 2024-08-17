@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Prahasith Pasnoor</title>
+  <style>
+    body {
+      background-color: #333;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: rgb(132, 127, 127);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .navbar a:hover {
+      background: rgb(221, 221, 221);
+      color: rgb(0, 0, 0);
+    }
+
+    .container img {
+      vertical-align: middle;
+    }
+
+    .container .content {
+      position: absolute;
+      top: 60px;
+      background: rgb(0, 0, 0);
+      /* Fallback color */
+      background: rgba(0, 0, 0, 0.5);
+      /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 70.6%;
+      padding: 20px;
+    }
+
+    #aboutme {
+      color: white;
+      font-size: 25px;
+      font-family: Arial;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #070707;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    #checkbox {
+      position: relative;
+      left: 100px;
+      font-size: 30px;
+      color: orange;
+    }
+
+    #myCheck {
+      position: relative;
+      left: 100px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: DarkSalmon;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid" style="padding:0px 0px ;margin: 0px 0px;">
+    <div class="row">
+      <div class="navbar">
+        <div class="column"><a href="#Home">Home</a></div>
+        <div class="column"><a href="#Timetable">Timetable</a></div>
+        <div class="column"><a href="#Education">Education</a></div>
+        <div class="column"><a href="#Hobbies">Hobbies</a></div>
+        <div class="column"><a href="#Achievements">Achievements</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="Home">
+    <div class="container">
+      <img src="prahasith.jpeg" style="width: 100%;">
+      <div class="content">
+        <p style="font-size: 50px;color: rgb(0, 255, 0);">Prahasith Pasnoor</p>
+      </div>
+      <div id="aboutme">
+        Hello!I am Prahasith Pasnoor, a sophomore at CSE,IIT Bombay.
+      </div>
+    </div>
+  </div>
+  <div id="Timetable" class="table-responsive">
+    <br><br>
+    <h1 ALIGN="center" style="color: red">TIMETABLE</h3>
+      <table class="table1">
+        <tr>
+          <th class="corner">Time/Day</th>
+          <th class="top">08:30-
+            09:25</th>
+          <th class="top">09:30-
+            10:25</th>
+          <th class="top">09:30-
+            10:55</th>
+          <th class="top">10:35-
+            11:30</th>
+          <th class="top">11:05-
+            12:30</th>
+          <th class="top">11:35-
+            12:30</th>
+          <th class="top">14-
+            16:55</th>
+          <th class="top">19-
+            20:25</th>
+        </tr>
+        <tr>
+          <th class="lhs">
+            MON
+          </th>
+          <td title="Data Structures and Algorithms&#010;Sohoni Milind [LH 301]">
+            CS 213
+          </td>
+          <td title="	Discrete Structures&#010;Diwan A.A. [LH 301]">CS 207</td>
+          <th colspan="3"></th>
+          <td title="Introduction to Electrical and Electronics Circuits&#010;Sandip Mondal [LH 301]">EE 101</td>
+          <th colspan="2"></th>
+        </tr>
+        <tr>
+          <th class="lhs">TUE</th>
+          <td title="Introduction to Electrical and Electronics Circuits&#010;Sandip Mondal [LH 301]">EE 101</td>
+          <td title="Data Structures and Algorithms&#010;Sohoni Milind [LH 301]">CS 213</td>
+          <th></th>
+          <td title="	Discrete Structures&#010;Diwan A.A. [LH 301]">CS 207</td>
+          <th colspan="4"></th>
+        </tr>
+        <tr>
+          <th class="lhs">WED</th>
+          <th></th>
+          <td title="Optimization Models&#010;K.S.Mallikarjuna Rao [LH 301]">IE 501</td>
+          <th></th>
+          <td title="Data Analysis and Interpretation&#010;Suyash P. Awate [LH 102]">CS 215</td>
+          <th></th>
+          <td title="Software Systems Lab&#010;K. Arya [SL2]">CS 251</td>
+          <th colspan="2"></th>
+        </tr>
+        <tr>
+          <th class="lhs">THUR</th>
+          <th></th>
+          <td title="Introduction to Electrical and Electronics Circuits&#010;Sandip Mondal [LH 301]">EE 101</td>
+          <th></th>
+          <td title="Data Structures and Algorithms&#010;Sohoni Milind [LH 301]">CS 213</td>
+          <th></th>
+          <td title="	Discrete Structures&#010;Diwan A.A. [LH 301]">CS 207</td>
+          <th colspan="2"></th>
+        </tr>
+        <tr>
+          <th class="lhs">FRI</th>
+          <th colspan="2"></th>
+          <td title="Optimization Models&#010;K.S.Mallikarjuna Rao [LH 301]">IE 501</td>
+          <th></th>
+          <td title="Data Analysis and Interpretation&#010;Suyash P. Awate [LH 102]">CS 215</td>
+          <th></th>
+          <td title="Data Structures and Algorithms Lab&#010;Supratik Chakraborty [SL2]">CS 293</td>
+          <th></th>
+        </tr>
+      </table>
+      <p style="text-align: right;padding-right: 20px;color:white ;"><b>lunch:12-14</b></p>
+      <p style="color: white;font-size:20px">
+        <b>NOTE: </b> The white spaces are not free time . <br> Dont forget to listen the recorded lectures.
+      </p>
+  </div>
+  <div id="Education">
+    <br><br>
+    <h1 ALIGN="center" style="color: red">EDUCATION</h1>
+    <table>
+      <tr>
+        <th class="corner">Education</th>
+        <th class="top">Name of the School/Institute</th>
+      </tr>
+      <tr>
+        <th class="lhs">
+          1st-7th class
+        </th>
+        <td title="Korutla&#010;Jagitial">
+          Sai Genius High School
+        </td>
+      </tr>
+      <tr>
+        <th class="lhs">
+          8th-10th class
+        </th>
+        <td title="Padmanagar&#010;Karimnagar">
+          Paramita IIT & Medical League
+        </td>
+      </tr>
+      <tr>
+        <th class="lhs">11th-12th</th>
+        <td title="Kushaiguda&#010;Hyderabad">
+          Narayana e-techno School
+        </td>
+      </tr>
+    </table>
+    <div class="container-fluid ">
+      <img src="paramita.png" width="25%" height="25%" style="position: relative;left:100px;">
+      <img src="narayana.jpeg" width="25%" height="25%" style="position: relative;left:800px;">
+    </div>
+    <br>
+  </div>
+  <div id="Hobbies" class="container-fluid">
+    <br><br>
+    <h1 align="center" style="color: red"><u>HOBBIES</u></h1>
+
+    <div>
+      <section>
+        <div class="container-fluid">
+            <input type="checkbox" id="fpc" name="hobby" onclick="ShowHideDiv1(this)" value="4 player chess" style="position:relative ;left: 100px;">
+            <label for="fpc" style="position:relative ;left: 100px;color: white;font-size: 20px;" >
+              4 Player Chess 
+            </label><br>
+            <input type="checkbox" id="rubik" name="hobby" onclick="ShowHideDiv2(this)" value="rubiks cube" style="position:relative ;left: 100px;">
+            <label for="fpc" style="position:relative ;left: 100px;color: white;font-size: 20px;">
+              Rubiks Cube 
+            </label><br>
+            
+            <input type="checkbox" id="movie" name="hobby" onclick="ShowHideDiv3(this)" value="movies & series" style="position:relative ;left: 100px;">
+            <label for="fpc" style="position:relative ;left: 100px;color: white;font-size: 20px;">
+              Movies & Series 
+            </label><br>
+            
+            <input type="submit" id="btn" onclick="alert()" style="position:relative ;left: 100px;">
+          
+          <div id="fpcshow" style="display: none;position: relative;left:100px;font-size: 25px;">
+            <h2>4 Player Chess (4pc)</h2>
+            <img src="4pc.png" width="25%" height="25%">
+
+            <p style="font-size: 20px;color: white;">
+              Four-player chess is a family of chess variants played with four people. The
+              game features a special board typically made of a standard 8x8 square, with 3 rows of 8 cells each
+              extending
+              from
+              each side,and requires two sets of differently colored pieces.
+              The rules are similar to, but not the same as,regular chess. <br>
+              I started playing this since 2020 ,at first it was very hard to play as focussing on 3 players pieces was
+              really
+              hard.
+              As i continued playing i got a hang of it and now i enjoy the games so much. The tactics are very
+              intriguing
+              and
+              are different from 2 player chess.
+              <br>
+            </p>
+          </div>
+          <div id="rubikshow" style="display: none;position: relative;left:100px;font-size: 25px;">
+            <h2>
+              Rubiks cube
+            </h2>
+            <img src="rubiks.jpg" width="20%" height="15%">
+            <p style="font-size: 20px;color: white;">
+              I learn how to solve a 3x3 in my 8th standard and since then i took a liking towards solving different types of rubiks cubes.
+              My best time for 3x3 is 32sec and average is 45secs. <br>
+              After increasing my proficiency in 3x3 i started learning other cubes. <br>
+              Now i can solve :2x2 ,4x4, mirror ,megaminx ,pyraminx ,axis cube. <br>
+              Because of academics i stopped there but i will definitely start learnig more cubes again later in the future.
+            </p>
+          </div>
+          <div id="movieshow" style="display: none;position: relative;left:100px;font-size: 25px;">
+            <h2>
+              Movies & Series
+            </h2>
+            <p style="font-size: 20px;color: white;">
+              I like watching movies and I recently started watching tv series.
+              I wactched "Sherlock", it was so good . In every episode he solves a new case and i loved each and every episode of it.
+              <br>
+              Right now I am wayching "Lucifer". It is also very good .
+              <br>
+              Movies....I like Marvel and i dont know many hollywood movies .
+              Some of the movies i wactched are : John Wick; Marvel movies; Inception ;Interstellar etc. 
+            </p>
+            <img src="avengers.webp" width="20%" height="20%">
+            <img src="lucifer.jpg" width="20%" height="20%">
+            <img src="sherlock.jpg" width="20%" height="20%">
+            <img src="johnwick.jpg" width="20%" height="20%">
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <br>
+
+  <div id="Achievements" class="container-fluid">
+    <br><br>
+    <h1 align="center" style="color: red"><u>MY ACHIEVEMENTS</u></h1>
+    <br>
+    <ul style="font-size: 20px;position:relative;left:100px;font-size: 30px;color: white;">
+      <li>
+        Cleared my 10th class with 9.7 GPA.
+      </li>
+      <li>
+        Got 2nd place in school scholarship exam (9th class)
+      </li>
+      <li>
+        KVPY Fellowship 2020 - AIR 458
+      </li>
+      <li>
+        JEE ADVANCED - AIR 326
+      </li>
+      <li>
+        Secured state rank 70 in EAMCET
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <p style="font-size:25px ;">
+      reach me here:
+    </p>
+    <i class="fa fa-whatsapp" style="font-size:24px"></i> 7207847859 <br>
+    210050114@iitb.ac.in <br>
+    prahakanna@gmail.com
+  </footer>
+
+
+
+<script>
+    function alert() {
+    var text = "Selected Hobbies:\n"
+    if (document.getElementById('fpc').checked)
+        text += document.getElementById('fpc').value + "\n";
+    if (document.getElementById('rubik').checked)
+        text += document.getElementById('rubik').value + "\n";
+    if (document.getElementById('movie').checked)
+        text += document.getElementById('movie').value + "\n";
+        if(confirm(text))
+    show();
+}
+function show() {
+    if (document.getElementById('fpc').checked) 
+        document.getElementById('fpcshow').style.display = "block";
+    else
+        document.getElementById('fpcshow').style.display = "none";
+    if (document.getElementById('rubik').checked)
+        document.getElementById('rubikshow').style.display = "block";
+    else
+        document.getElementById('rubikshow').style.display = "none";
+    if (document.getElementById('movie').checked)
+        document.getElementById('movieshow').style.display = "block";
+    else
+        document.getElementById('movieshow').style.display = "none";
+}
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
